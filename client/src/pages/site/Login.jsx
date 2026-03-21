@@ -44,7 +44,7 @@ export default function Login() {
 
   // Google Login Click
   function handleGoogleLogin() {
-    window.open("http://localhost:5000/api/auth/google", "_self");
+    window.open("https://internhub-admin-panel.onrender.com/api/auth/google", "_self");
   }
 
   return (
@@ -109,7 +109,7 @@ export default function Login() {
           className="w-full flex items-center justify-center gap-3 border py-2 rounded-lg hover:bg-gray-100 transition"
         >
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/0/09/Google_favicon_2015.png"
+            src="google.png"
             alt="Google"
             className="w-5 h-5"
           />
