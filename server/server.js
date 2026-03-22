@@ -19,10 +19,12 @@ app.use(cookieParser());
 // CORS
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:3000",
+    origin: process.env.CLIENT_URL,
     credentials: true,
   })
 );
+
+app.set("trust proxy", 1);
 
 // Passport initialization (NO sessions)
 app.use(passport.initialize());
@@ -56,10 +58,6 @@ app.use((err, req, res, next) => {
 });
 
 // Start Server
-// const PORT = process.env.PORT || 5000;
-// app.listen(PORT, () =>
-//   console.log(`🚀 Server running on port ${PORT}`)
-// );
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {

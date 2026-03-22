@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://internhub-admin-panel.onrender.com/api",
   withCredentials: true, // 🔥 REQUIRED for cookie auth
 });
 
