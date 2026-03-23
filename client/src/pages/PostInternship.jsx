@@ -14,10 +14,7 @@ export default function PostInternship() {
   });
 
   const [loading, setLoading] = useState(false);
-
-  // Get token (from login response)
   
-
   async function submit(e) {
     e.preventDefault();
     setLoading(true);
