@@ -100,12 +100,12 @@ export default function Login() {
 
         <div className="flex items-center my-6">
           <div className="flex-grow h-px bg-gray-300" />
-          <span className="px-3 text-gray-500 text-sm">OR</span>
+          {/* <span className="px-3 text-gray-500 text-sm">OR</span> */}
           <div className="flex-grow h-px bg-gray-300" />
         </div>
 
         {/* GOOGLE LOGIN BUTTON */}
-        <button
+        {/* <button
           onClick={handleGoogleLogin}
           className="w-full flex items-center justify-center gap-3 border py-2 rounded-lg hover:bg-gray-100 transition"
         >
@@ -115,7 +115,7 @@ export default function Login() {
             className="w-5 h-5"
           />
           <span>Login with Google</span>
-        </button>
+        </button> */}
       </div>
     </div>
   );

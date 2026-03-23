@@ -17,9 +17,14 @@ app.use(express.json());
 app.use(cookieParser());
 
 // CORS
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: [
+      "https://internhub-admin-panel.vercel.app",
+      "https://internhub-admin-panel-uxtb.vercel.app",
+      "http://localhost:3000"
+    ],
     credentials: true,
   })
 );
