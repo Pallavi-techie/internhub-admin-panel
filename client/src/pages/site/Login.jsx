@@ -31,7 +31,7 @@ export default function Login() {
       }
 
       // Store token
-      // localStorage.setItem("token", data.token);
+      localStorage.setItem("token", data.token);
       localStorage.setItem("admin", JSON.stringify(data.user));
 
       // Redirect to dashboard
