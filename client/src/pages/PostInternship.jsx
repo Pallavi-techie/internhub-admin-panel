@@ -16,7 +16,7 @@ export default function PostInternship() {
   const [loading, setLoading] = useState(false);
 
   // Get token (from login response)
-  const token = localStorage.getItem("token");
+  
 
   async function submit(e) {
     e.preventDefault();
