@@ -11,6 +11,18 @@ The admin dashboard provides a centralized interface for handling postings, appl
 The Admin Dashboard acts as the control center of the platform, allowing administrators to manage both **career-related workflows** and **website content** efficiently.
 
 ---
+## 🚀 Live Demo
+
+🔗 **Live:** https://internhub-admin-panel.vercel.app
+
+### Demo Credentials
+- **Email:** admin@internhub.com
+- **Password:** Admin@1234
+
+**Deployment:** Vercel (Frontend) + Render (Backend)
+
+---
+---
 
 ## 🚀 Core Features (Based on Actual Dashboard)
 
