@@ -43,10 +43,10 @@ export default function Login() {
     setLoading(false);
   }
 
-  // Google Login Click
-  function handleGoogleLogin() {
-    window.open("https://internhub-admin-panel.onrender.com/api/auth/google", "_self");
-  }
+  // // Google Login Click
+  // function handleGoogleLogin() {
+  //   window.open("https://internhub-admin-panel.onrender.com/api/auth/google", "_self");
+  // }
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
